@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: com.lubia.businessclient.BusinessClientApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 5.093 s <<< FAILURE! - in com.lubia.businessclient.BusinessClientApplicationTests
+contextLoads  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.IllegalStateException: Failed to load ApplicationContext
+Caused by: java.lang.IllegalStateException: Could not locate PropertySource and the fail fast property is set, failing
+Caused by: org.springframework.web.client.ResourceAccessException: I/O error on GET request for "http://localhost:8762/business-client/dev/master": Connection refused: connect; nested exception is java.net.ConnectException: Connection refused: connect
+Caused by: java.net.ConnectException: Connection refused: connect
+
